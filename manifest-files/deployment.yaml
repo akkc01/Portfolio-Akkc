@@ -16,7 +16,7 @@ spec:
     spec:     
       containers:
       - name: nginx
-        image: nginx:latest
+        image:  akkc01/akkc:latest 
         ports:
           - containerPort: 80
         resources:
@@ -24,7 +24,6 @@ spec:
             cpu: "100m"
           limits:
             cpu: "200m"
-
 
 
 
