@@ -16,7 +16,7 @@ spec:
     spec:     
       containers:
       - name: nginx
-        image: akkc:v1
+        image: streamflix:1.2.0
         ports:
           - containerPort: 80
         resources:
