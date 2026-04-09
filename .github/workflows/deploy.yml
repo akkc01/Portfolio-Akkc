@@ -22,7 +22,6 @@ jobs:
       - name: Build & push Image
         run: |
           docker build -t akkc01/akkc:${{ github.sha }} .
-          
           docker push akkc01/akkc:${{ github.sha }}
 
 
